@@ -5,7 +5,7 @@ wget "https://builds.openlogic.com/downloadJDK/openlogic-openjdk-jre/8u262-b10/o
 
 sudo apt-get udpate && sudo apt-get upgrade -y;
 
-sudo apt-get install openlogic-openjdk-jre-8u262-b10-linux-x64-deb.deb -y;
+sudo apt-get install ./openlogic-openjdk-jre-8u262-b10-linux-x64-deb.deb -y;
 sudo update-alternatives --set java /usr/lib/jvm/openlogic-openjdk-8-hotspot-jre-amd64/bin/java;
 
 rm "openlogic-openjdk-jre-8u262-b10-linux-x64-deb.deb"
